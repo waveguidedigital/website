@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="Waveguide Digital - Technology Consulting Company" />
+        <meta name="author" content="Waveguide Digital" />
+        <title>Waveguide Digital</title>
+        
+        <!-- Font Awesome icons (free version)-->
+        <script src="https://use.fontawesome.com/releases/v6.3.0/js/all.js" crossorigin="anonymous"></script>
+        
+        <!-- Google fonts-->
+        <link href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:500,700" rel="stylesheet" type="text/css" />
+        <link href="https://fonts.googleapis.com/css?family=Muli:400,400i,800,800i" rel="stylesheet" type="text/css" />
+        
+        <!-- Bootstrap Core CSS via CDN -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" />
+
+        <!-- Embedded Custom Theme CSS -->
+        <style>
+            :root {
+                --bs-primary: #3872bd;
+                --bs-body-bg: #e6ecf5;
+            }
+            body {
+                font-family: 'Muli', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+                padding-top: 54px;
+                color: #868e96;
+            }
+            @media (min-width: 992px) {
+                body {
+                    padding-top: 0;
+                    padding-left: 17rem;
+                }
+            }
+            h1, h2, h3, h4, h5, h6 {
+                font-family: 'Saira Extra Condensed', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+                font-weight: 700;
+                text-transform: uppercase;
+                color: #343a40;
+            }
+            h1 { font-size: calc(1.725rem + 5.7vw); line-height: 1.2; }
+            @media (min-width: 1200px) { h1 { font-size: 6rem; line-height: 5.5rem; } }
+            h2 { font-size: calc(1.475rem + 2.7vw); }
+            @media (min-width: 1200px) { h2 { font-size: 3.5rem; } }
+            h3 { font-size: calc(1.325rem + 0.9vw); }
+            @media (min-width: 1200px) { h3 { font-size: 2rem; } }
+            
+            p.lead { font-size: 1.15rem; font-weight: 400; }
+            
+            .subheading {
+                text-transform: uppercase;
+                font-weight: 500;
+                font-family: 'Saira Extra Condensed', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+                font-size: 1.5rem;
+            }
+            
+            .text-primary { color: var(--bs-primary) !important; }
+            .bg-primary { background-color: var(--bs-primary) !important; }
+            a { color: var(--bs-primary); text-decoration: none; }
+            a:hover { color: #3e5a6e; text-decoration: underline; }
+
+            .resume-section {
+                display: flex;
+                align-items: center;
+                padding-left: 1rem;
+                padding-right: 1rem;
+                padding-top: 5rem;
+                padding-bottom: 5rem;
+                max-width: 75rem;
+            }
+            .resume-section .resume-section-content { width: 100%; }
+            @media (min-width: 768px) {
+                .resume-section { min-height: 100vh; }
+            }
+            @media (min-width: 992px) {
+                .resume-section {
+                    padding-left: 3rem;
+                    padding-right: 3rem;
+                    padding-top: 5rem;
+                    padding-bottom: 5rem;
+                }
+            }
+
+            /* Navigation Styles */
+            #sideNav .navbar-nav .nav-item .nav-link {
+                font-weight: 800;
+                letter-spacing: 0.05rem;
+                text-transform: uppercase;
+            }
+            #sideNav .navbar-toggler:focus { outline: none; }
+            @media (min-width: 992px) {
+                #sideNav {
+                    text-align: center;
+                    position: fixed;
+                    top: 0;
+                    left: 0;
+                    display: flex;
+                    flex-direction: column;
+                    width: 17rem;
+                    height: 100vh;
+                }
+                #sideNav .navbar-brand { display: flex; margin: auto auto 0; padding: 0.5rem; }
+                #sideNav .navbar-brand .img-profile {
+                    max-width: 10rem;
+                    max-height: 10rem;
+                    border: 0.5rem solid rgba(255, 255, 255, 0.2);
+                }
+                #sideNav .navbar-collapse {
+                    display: flex;
+                    align-items: flex-start;
+                    flex-grow: 0;
+                    width: 100%;
+                    margin-bottom: auto;
+                }
+                #sideNav .navbar-collapse .navbar-nav { flex-direction: column; width: 100%; }
+                #sideNav .navbar-collapse .navbar-nav .nav-item { display: block; }
+                #sideNav .navbar-collapse .navbar-nav .nav-item .nav-link { display: block; }
+            }
+
+            /* Services & Contact Styles */
+            .service-icon {
+                font-size: 3rem;
+                color: var(--bs-primary);
+                margin-bottom: 1rem;
+            }
+            .social-icons .social-icon {
+                display: inline-flex;
+                align-items: center;
+                justify-content: center;
+                height: 3.5rem;
+                width: 3.5rem;
+                background-color: #495057;
+                color: #fff;
+                border-radius: 100%;
+                font-size: 1.5rem;
+                margin-right: 1.5rem;
+                transition: background-color 0.2s ease-in-out;
+            }
+            .social-icons .social-icon:hover { background-color: var(--bs-primary); }
+        </style>
+    </head>
+    <body id="page-top">
+        <!-- Navigation-->
+        <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="sideNav">
+            <a class="navbar-brand js-scroll-trigger" href="#page-top">
+                <!-- <span class="d-block d-lg-none">Waveguide Digital</span>
+                <span class="d-none d-lg-block"><img class="img-fluid img-profile rounded-circle mx-auto mb-2" src="assets/img/profile.jpg" alt="Waveguide Digital Logo" /></span> -->
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav">
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#about">About</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#services">Services</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+        
+        <!-- Page Content-->
+        <div class="container-fluid p-0">
+            
+            <!-- About-->
+            <section class="resume-section" id="about">
+                <div class="resume-section-content">
+                    <h1 class="mb-0">
+                        WAVEGUIDE
+                        <span class="text-primary">DIGITAL</span>
+                    </h1>
+                    <div class="subheading mb-5">
+                        Technology Consulting
+                    </div>
+                    <p class="lead mb-5">
+                        Waveguide Digital is a technology consulting firm based in Spokane and operating throughout the Inland Northwest. We provide comprehensive IT support for small businesses such as website building, cybersecurity consulting, and hardware acquisition.
+                        <br><br>
+                        Whether you need to update your website, secure your data, or just need someone to call when your computer breaks, we can help. 
+                    </p>
+                </div>
+            </section>
+            <hr class="m-0" />
+
+            <!-- Services-->
+            <section class="resume-section" id="services">
+                <div class="resume-section-content">
+                    <h2 class="mb-5">Our Services</h2>
+                    
+                    <div class="row text-center text-md-start">
+                        <!-- Service 1 -->
+                        <div class="col-md-6 mb-5">
+                            <div class="service-icon">
+                                <i class="fa-solid fa-laptop-code"></i>
+                            </div>
+                            <h3 class="mb-3">Website Building</h3>
+                            <p>We build custom websites that help our clients reach their customers. Every business is unique, and by taking the time to understand the needs of your small business, we can build a site that better connects you with your customers.</p>
+                        </div>
+                        
+                        <!-- Service 2 -->
+                        <div class="col-md-6 mb-5">
+                            <div class="service-icon">
+                                <i class="fa-solid fa-shield-halved"></i>
+                            </div>
+                            <h3 class="mb-3">Cyber Security Training</h3>
+                            <p>A little prevention goes a long way when it comes to cybersecurity. At this point everyone knows someone who has had their business disrupted massively due to a hack. With basic employee training, you can eliminate the vast majority of cyber-attack vectors. We provide training that matches the technical backgrounds of your employees.</p>
+                        </div>
+                        
+                        <!-- Service 3 -->
+                        <div class="col-md-6 mb-5">
+                            <div class="service-icon">
+                                <i class="fa-solid fa-server"></i>
+                            </div>
+                            <h3 class="mb-3">Hardware Acquisition</h3>
+                            <p>Knowing what hardware (computers, phones, etc) to buy can take up lots of time that you don't have. We help you identify, source, and roll out the right hardware for your business needs and budget.</p>
+                        </div>
+                        
+                        <!-- Service 4 -->
+                        <div class="col-md-6 mb-5">
+                            <div class="service-icon">
+                                <i class="fa-solid fa-network-wired"></i>
+                            </div>
+                            <h3 class="mb-3">General IT Services</h3>
+                            <p>From email setup to daily troubleshooting, we offer reliable general IT support to keep your operations running smoothly without interruption.</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <hr class="m-0" />
+            
+            <!-- Contact -->
+            <section class="resume-section" id="contact">
+                <div class="resume-section-content">
+                    <h2 class="mb-5">Contact</h2>
+                    <p class="lead">
+                        <ul>
+                            <li>Looking for a quote on a new website?</li>
+                            <li>Ready to strengthen your cybersecurity infrastructure?</li>
+                            <li>Ready to upgrade to a new computer system?</li>
+                            </ul>
+                        Give us a call at <a href="tel:5098500657">(509)850-0657</a>
+                        or send us an email at <a href="mailto:contact@waveguidedigital.com">waveguidedigital@gmail.com</a></p>
+                </div>
+            </section>
+            <hr class="m-0" />
+
+        </div>
+        
+        <!-- Bootstrap core JS-->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+        
+        <!-- Core theme JS for smooth scrolling and responsive navbar behavior-->
+        <script>
+            window.addEventListener('DOMContentLoaded', event => {
+                // Activate Bootstrap scrollspy on the main nav element
+                const sideNav = document.body.querySelector('#sideNav');
+                if (sideNav) {
+                    new bootstrap.ScrollSpy(document.body, {
+                        target: '#sideNav',
+                        rootMargin: '0px 0px -40%',
+                    });
+                }
+
+                // Collapse responsive navbar when toggler is visible
+                const navbarToggler = document.body.querySelector('.navbar-toggler');
+                const responsiveNavItems = [].slice.call(
+                    document.querySelectorAll('#navbarResponsive .nav-link')
+                );
+                responsiveNavItems.map(function (responsiveNavItem) {
+                    responsiveNavItem.addEventListener('click', () => {
+                        if (window.getComputedStyle(navbarToggler).display !== 'none') {
+                            navbarToggler.click();
+                        }
+                    });
+                });
+            });
+        </script>
+    </body>
+</html>
